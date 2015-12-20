@@ -60,6 +60,13 @@
             <version>1.2</version>
         </dependency>
 
+	<dependency>
+		<groupId>org.postgresql</groupId>
+		<artifactId>postgresql</artifactId>
+		<version>9.4-1206-jdbc42</version>
+	</dependency>
+
+
         <!-- test dependencies -->
 
         <dependency>
@@ -74,7 +81,7 @@
     <build>
         <pluginManagement>
             <plugins>
-
+<!--
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
@@ -83,7 +90,7 @@
                         <target>1.8</target>
                     </configuration>
                 </plugin>
-
+-->
                 <plugin>
                     <artifactId>maven-assembly-plugin</artifactId>
                     <executions>
